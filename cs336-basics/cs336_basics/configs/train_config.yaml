@@ -20,7 +20,7 @@ training:
   max_iters: 100000
   val_every: 2000
   val_iters: 50
-  device: mps
+  device: cuda
 
 optimizer:
   lr: 3e-4
